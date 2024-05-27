@@ -26,7 +26,6 @@ app.layout = html.Div([
         id='analysis-dropdown',
         options=[
             {'label': 'Segmentación demográfica y sociodemográfica', 'value': 'demographic'},
-            {'label': 'Análisis de tendencias de matriculación', 'value': 'enrollment'},
             {'label': 'Evaluación de la vulnerabilidad y necesidades especiales', 'value': 'vulnerability'},
             {'label': 'Análisis de la movilidad y migración estudiantil', 'value': 'mobility'}
         ],
